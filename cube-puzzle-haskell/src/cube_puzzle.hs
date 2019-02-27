@@ -10,16 +10,16 @@ connections =
     [ ((Top, East),(Ri, South))
     , ((Top, West),(Lef, South))
 
-    , ((Bot, North),(Back, North))
-    , ((Bot, South),(Front, North))
+    , ((Bot, North),(Front, West))
+    , ((Bot, South),(Back, East))
     , ((Bot, West),(Ri, North)) 
 
     , ((Front, South),(Bot, North)) 
-    , ((Front, West),(Lef, West)) 
+    , ((Front, West),(Back, West)) 
 
-    , ((Back, South),(Bot, South)) 
-    , ((Back, East),(Lef, East)) 
-    , ((Back, West),(Ri, West)) 
+    , ((Back, South),(Bot, North)) 
+    , ((Back, East),(Ri, East)) 
+    , ((Back, West),(Lef, West)) 
 
     , ((Lef, North),(Top, East)) 
     , ((Lef, East),(Front, East))
